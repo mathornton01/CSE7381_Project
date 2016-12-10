@@ -1,6 +1,6 @@
 module counter_tb;
   reg clk, reset, enable; 
-  wire [3:0] count; 
+  wire [31:0] count; 
     
   counter U0 ( 
   .clk    (clk), 
