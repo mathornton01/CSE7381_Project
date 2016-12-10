@@ -6,8 +6,8 @@
 //-----------------------------------------------------
 module counter (clk, reset, enable, count);
 input clk, reset, enable;
-output [3:0] count;
-reg [3:0] count;                                   
+output [31:0] count;
+reg [31:0] count;                                   
 
 always @ (posedge clk)
 if (reset == 1'b1) begin
