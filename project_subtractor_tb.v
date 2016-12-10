@@ -17,6 +17,7 @@ module test_alu;
 	begin
 	   #2 ALUctl = 4'h6; A = 32'hD; B = 32'h6; //d - 6 = 7
 	   #2 A = 32'hf; B = 32'h2; //f - 2 = d
+	   #2 A = 32'h1; B = 32'h2; //1 - 2 = -1
 	   
 	end
 
